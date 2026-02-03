@@ -1,0 +1,118 @@
+📊 AI-Enabled Market Trend & Consumer Sentiment Analysis System
+
+📌 Overview
+
+The AI-Enabled Market Trend & Consumer Sentiment Analysis System is an intelligent                     analytics solution that collects data from news platforms and Reddit, analyzes public opinions using AI-based sentiment analysis, and identifies market trends and sentiment spikes.
+
+The system is designed to help organizations understand consumer behavior, brand perception, and emerging market issues in real time.
+
+
+🎯 Objectives
+
+  1. Monitor consumer sentiment from online sources.
+
+  2. Identify positive, negative, and neutral opinions.
+
+  3. Detect sudden sentiment spikes and trending discussions.
+
+  4. Generate actionable insights for business decision-making.
+
+  5. Provide automated alerts for critical sentiment changes.
+
+
+🚀 Key Features
+
+  1. Multi-source data collection (News & Reddit).
+
+  2. AI-powered sentiment classification.
+
+  3. Trend and spike detection.
+
+  4. Interactive Streamlit dashboard.
+
+  5. Automated Email and Slack notifications.
+
+
+
+🧠 System Architecture (High-Level)
+
+  1. Data Collection Layer:
+     -> Fetches raw text data from News APIs and Reddit APIs.
+
+  2. Processing Layer:
+     -> Cleans and preprocesses text data.
+     -> Applies sentiment analysis using transformer models.
+
+  3. Analysis Layer:
+     -> Detects sentiment trends and abnormal spikes.
+     -> Aggregates results by category and time.
+
+  4. Notification Layer:
+     -> Sends alerts via Email and Slack.
+
+  5. Visualization Layer:
+     -> Displays insights on a Streamlit dashboard.
+
+
+🌐 APIs Used in the Project
+
+ 📰 News API
+
+    Purpose:
+    -> Fetches real-time and recent news articles related to market keywords.
+
+    Usage:
+    -> News sentiment analysis
+    -> Market trend detection
+    -> Negative/positive coverage tracking
+
+
+ 👥 Reddit API (via RapidAPI)
+
+    Purpose:
+    -> Collects public discussions and opinions from Reddit.
+
+    Usage:
+    -> Consumer opinion analysis
+    -> Trending topic detection
+    -> Sentiment spike identification
+
+
+ 📧 Gmail SMTP API
+
+    Purpose:
+    -> Sends automated email alerts for sentiment spikes.
+
+
+ 💬 Slack Webhook API
+
+    Purpose:
+    -> Provides real-time notifications to Slack channels.
+
+
+📊 Output & Insights
+
+   -> Sentiment distribution charts
+   -> Time-based trend analysis
+   -> Spike detection alerts
+   -> Exportable Excel reports
+
+
+📌 Use Cases
+
+   -> Market research
+   -> Brand reputation monitoring
+   -> Consumer feedback analysis
+   -> Business intelligence
+   -> Academic and research projects
+
+
+📜 License
+
+    MIT License:
+    -> Copyright (c) 2026 Ankit Singh
+
+
+🧑‍💻 Author
+
+   ANKIT KUMAR

@@ -1,0 +1,29 @@
+# ---------------- Core AI / LLM ----------------
+google-genai
+python-dotenv
+groq
+
+# ---------------- NLP / ML ----------------
+nltk
+pandas
+openpyxl
+transformers
+torch
+numpy
+scikit-learn
+
+# ---------------- Visualization / App ----------------
+streamlit
+plotly
+
+# ---------------- RAG Stack (Version Locked) ----------------
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+
+# ---------------- Scheduling ----------------
+schedule
+accelerate
